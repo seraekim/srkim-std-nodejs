@@ -4,7 +4,7 @@
  * The default of umask is 002 or 022.
  * fs.mkdir executes chmod mode & ~process.umask()
  * 
- * @auther srkim
+ * @author srkim
  */
 var fs = require('fs');
 var path = require('path');

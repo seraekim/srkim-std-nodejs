@@ -1,3 +1,6 @@
+/**
+ * daily rotated log with winston
+ */
 var winston = require('winston');
 var winstonDaily = require('winston-daily-rotate-file');
 var moment = require('moment');

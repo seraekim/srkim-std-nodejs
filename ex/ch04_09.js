@@ -1,5 +1,5 @@
 /**
- * process specific a buffer of its file
+ * use a buffer of its file
  */
 var fs = require('fs');
 var path = require('path');
