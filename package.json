@@ -1,0 +1,32 @@
+{
+  "name": "srkim-std-nodejs",
+  "version": "1.0.0",
+  "description": "srkim's nodejs basic usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seraekim/srkim-std-nodejs.git"
+  },
+  "keywords": [
+    "basic",
+    "tutorial",
+    "node",
+    "js",
+    "standard"
+  ],
+  "author": "srkim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seraekim/srkim-std-nodejs/issues"
+  },
+  "homepage": "https://github.com/seraekim/srkim-std-nodejs#readme",
+  "dependencies": {
+    "moment": "^2.19.2",
+    "nconf": "^0.9.1",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  }
+}
