@@ -12,11 +12,12 @@ var options = {
 var req = http.get(options, function(res) {
     var resData = '';
     res.on('data', function(chunk) {
+        console.log('data >>', chunk);
         resData += chunk;
     });
 
     res.on('end', function() {
-        console.log(resData);
+        console.log('end >>',resData);
     });
 });
 
